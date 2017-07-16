@@ -1,0 +1,256 @@
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 20000% 0; }
+}
+
+body
+{
+	background-image: url(http://cdn.wallpapersafari.com/53/22/RI2Bye.png);
+	background-position: 0px 0px;
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat-x;
+	animation: animatedBackground 100s linear infinite;
+	color: white;
+	font-family: 'Bungee Inline', cursive;
+	margin: 0px;
+}
+header
+{
+	border-bottom: 2px solid white;
+	margin-bottom: 5%;
+}
+ul
+{
+	text-decoration: none;
+	list-style: none;
+}
+li
+{
+	display: inline-block;
+}
+.header-text
+{
+	display: inline-block;
+}
+.ion-gear-a
+{
+	font-size: 30px;
+	margin: 0% 1.5%;
+	color: #E34A3E;
+}
+#header-nav
+{
+	text-align: right;
+	width: 65%;
+}
+.nav-li
+{
+	margin-right: 2.5%;
+	text-align: right;
+}
+#splash-screen
+{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	border: 2px solid white;
+	border-radius: 5px;
+	width: 60%;
+	height: 600px;
+}
+#splash-title
+{
+	font-size: 75px;
+	margin: 0px;
+	padding: 0px;
+}
+.splashButtons
+{
+	text-align: center;
+	width: 30%;
+	margin: 7% 40%;
+	margin-bottom: 0px;
+	width: 20%;
+	padding: 1% 0%;
+	color: white;
+	font-weight: bold;
+	border: 2px solid white;
+	border-radius: 5px;
+	background-color: #E34A3E;
+}
+.splashButtons:hover
+{
+	background-color: rgba(0,0,0,0.5);
+}
+#how-to-play-screen
+{
+	text-align: center;
+	margin: 0px 20%;
+	background-color: rgba(0,0,0,0.5);
+	padding:2.5% 1.5%;
+	border: 2px solid white;
+	border-radius: 5px;
+	display: none;
+}
+#how-to-play-title
+{
+	font-size: 45px;
+}
+#game
+{
+	text-align: center;
+	margin-top: 2.5%;
+	display: none;
+}
+#game-board
+{
+	margin: 1.5%;
+}
+.game-top-content
+{
+	display: inline-block;
+	margin-right: 2.5%;
+}
+#difficult-selector
+{
+	padding: 0px;
+	border: 2px solid white;
+	color: white;
+	border-radius: 2.5px;
+	background-color: #E34A3E;
+}
+.gameplay-info
+{
+	color:  #E34A3E;
+}
+.game-divs
+{
+	margin: 0px;
+	height: 40px;
+	padding: 0px;
+}
+.game-button
+{
+	background: #E34A3E; /* For browsers that do not support gradients */
+	float: right;
+	position: relative;
+	left: -39.45%; /* or right 50% */
+	text-align: center;
+	border: 2px solid white;
+	border-radius: 4px;
+	width: 40px;
+	height: 40px;
+}
+.ion-gear-b
+{
+	color : #E34A3E;
+}
+.game-mine
+{
+	background-color: white;
+	border: 2px solid black;
+	font-size: 20px;
+	color: #E34A3E;
+}
+.game-flag
+{
+	background-color: green;
+	font-size: 20px;
+	color: white;
+	padding: 0px;
+  margin: 0px;
+  border: none;
+}
+.game-btn-selected
+{
+	-webkit-box-shadow: inset 0px 0px 0px 2.5px black;
+    -moz-box-shadow: inset 0px 0px 0px 2.5px black;
+    box-shadow: inset 0px 0px 0px 2.5px black;
+    color: white;
+    background-color: #c13326;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+}
+.game-button:hover
+{
+	opacity: 0.5;
+}
+#game-over-screen
+{
+	text-align: center;
+	margin: 0px 20%;
+	background-color: rgba(0,0,0,0.5);
+	padding:2.5% 1.5%;
+	border: 2px solid white;
+	border-radius: 5px;
+	display: none;
+}
+#win-screen
+{
+	text-align: center;
+	margin: 0px 20%;
+	background-color: rgba(0,0,0,0.5);
+	padding:2.5% 1.5%;
+	border: 2px solid white;
+	border-radius: 5px;
+	display: none;
+}
+#restart-game
+{
+	border: 2px solid white;
+	border-radius: 4px;
+	background-color: transparent;
+	padding: 0.5% 2%;
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 20px;
+}
+#restart-game:hover
+{
+	background-color: #E34A3E;
+}
+#main-footer
+{
+	margin-top: 7.5%;
+	padding-top: 1%;
+	background-color: rgba(0,0, 0, 0.5);
+	border-top: 2px solid white;
+	color: white;
+}
+.footer-li
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 20px;
+	width: 33%;
+}
+.footer-ahref
+{
+	text-decoration: none;
+	color: white;
+}
+.ion-footer
+{
+	color: #E34A3E;
+	margin-left: 2.5%;
+	font-size: 30px;
+}
+.footer-text-info
+{
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 3%;
+	font-size: 20px;
+	color: white;
+	font-style: italic;
+	font-weight: bolder;
+}
+#footer-text
+{
+	background-color: #E34A3E;
+	margin-top: 3%;
+}

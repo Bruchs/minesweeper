@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<!-- Can't see by the user -->
+<head>
+	<!-- Specify the character encoding for the HTML document -->
+	<meta charset="utf-8">
+	<!-- The title used on the webpage -->
+	<title> Matias Fuentes | Minesweeper </title>
+	<!-- Link to the webpage css -->
+	<link rel="stylesheet" type="text/css" href="css/mine.css">
+	<!-- Link to use a font provided by google -->
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bungee+Inline" rel="stylesheet">
+	<!-- Link to use a special icons font provided by Ionicons -->
+	<link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<!-- Link to use JQuery library -->
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.0/buzz.min.js"></script>
+</head>
+
+<body id="animate-area">
+	<!-- Header Content -->
+	<header>
+		<div id="header-text-content">
+			<span class="ion-gear-a header-text"></span>
+			<h1 class="header-text"> Minesweeper | </h1>
+			<h5 class="header-text"> Matias Fuentes </h5>
+			<ul id="header-nav" class="header-text" style="">
+				<li class="nav-li"> Portfolio </li>
+				<li class="nav-li"> LinkedIn </li>
+				<li class="nav-li"> Contact Me</li>
+			</ul>
+		</div>
+	</header>
+
+	<!-- Splash Screen -->
+	<div id="splash-screen">
+		<h2 id="splash-title">
+			<span class="ion-gear-a" style="font-size: 80px; margin: 0px;"></span>
+			MINESWEEPER
+		</h2>
+		<p> By</p>
+		<p> Matias Fuentes</p>
+		<div id="start-game-btn" class="splashButtons"> Play Now </div>
+		<div id="how-to-play-btn" class="splashButtons" style="margin-top: 1%;"> How To Play </div>
+	</div>
+	<div id="how-to-play-screen">
+		<p id="how-to-play-title"> How to Play </p>
+		<ul>
+			<li>Uncover a mine, and the game ends.</li>
+			<li>Uncover an empty square, and you keep playing.</li>
+			<li>Uncover a number, and it tells you how many mines lay hidden in the eight surrounding squares—information you use to deduce which nearby squares are safe to click.</li>
+		</ul>
+		<div id="back-to-menu-btn" class="splashButtons"> Back to Menu </div>
+	</div>
+	<!-- Game Content -->
+	<div id="game">
+		<p class="game-text game-top-content"> Time : <span id="game-timer" class="gameplay-info"></span> </p>
+		<!-- Player mines flaged -->
+		<p class="game-text game-top-content"> Flags : <span id="game-flags" class="gameplay-info"></span> </p>
+		<!-- Game area placement -->
+		<div id="game-board"></div>
+		<button id="restart-game" type="button"> Restart Game </button>
+	</div>
+
+	<div id="game-over-screen">
+		<p id="game-over-title"> Game Over </p>
+		<ul>
+			<li>Uncover a mine, and the game ends.</li>
+			<li>Uncover an empty square, and you keep playing.</li>
+			<li>Uncover a number, and it tells you how many mines lay hidden in the eight surrounding squares—information you use to deduce which nearby squares are safe to click.</li>
+		</ul>
+		<div id="back-to-menu-btn-go" class="splashButtons" style=""> Back to Menu </div>
+		<div id="play-again-btn" class="splashButtons" style="margin-top: 1%;"> Play Again</div>
+	</div>
+
+	<div id="win-screen">
+		<p id="win-title"> You Win! </p>
+		<ul>
+			<li>Uncover a mine, and the game ends.</li>
+			<li>Uncover an empty square, and you keep playing.</li>
+			<li>Uncover a number, and it tells you how many mines lay hidden in the eight surrounding squares—information you use to deduce which nearby squares are safe to click.</li>
+		</ul>
+		<div id="back-to-menu-btn-win" class="splashButtons" style=""> Back to Menu </div>
+		<div id="play-again-btn-win" class="splashButtons" style="margin-top: 1%;"> Play Again</div>
+	</div>
+
+	<!-- Footer content -->
+		<div id="main-footer">
+			<div style="">
+				<ul>
+					<li class="footer-li"><a class="footer-ahref" href="mailto:matias.f_c@outlook.es">  Email me <span class="ion-email ion-footer"></span> </a></li>
+					<li class="footer-li"><a class="footer-ahref" href="tel:+16046001026"> Call me <span class="ion-android-phone-portrait ion-footer"></span></a></li>
+					<li class="footer-li"><a class="footer-ahref" href="https://www.linkedin.com/uas/login"> Message me <span class="ion-social-linkedin ion-footer"></span></a></li>
+				</ul>
+			</div>
+			<div id="footer-text">
+				<p class="footer-text-info"> matias.f_c@outlook.es </p>
+				<p class="footer-text-info"> +1 604 600 1026 </p>
+			</div>
+		</div>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="js/mine.js"></script>
+		<script type="text/javascript" src="js/timer.js"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
+</body>
+</html>
